@@ -66,7 +66,7 @@ I focus primarily on **C++** to reinforce my understanding of:
 
 ## 🔗 Links
 
-LeetCode Profile: [https://leetcode.com/](https://leetcode.com/u/thisispit/)
+LeetCode Profile: [Click here](https://leetcode.com/u/thisispit/)
 
 ---
 
