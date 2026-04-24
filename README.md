@@ -25,17 +25,17 @@ Through consistent practice, I've learned to:
 ```
 LeetCode/
 │
-├── C++/
-│   ├── TwoSum.cpp
-│   ├── BinarySearch.cpp
+├── C/
+│   ├── TwoSum.c
+│   ├── BinarySearch.c
 │   └── ...
 │
 ├── Python/
 │   ├── TwoSum.py
 │   └── ...
 │
-├── JavaScript/
-│   ├── TwoSum.js
+├── JavaS/
+│   ├── TwoSum.java
 │   └── ...
 │
 └── README.md
