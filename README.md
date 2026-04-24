@@ -34,7 +34,7 @@ LeetCode/
 │   ├── TwoSum.py
 │   └── ...
 │
-├── JavaS/
+├── Java/
 │   ├── TwoSum.java
 │   └── ...
 │
