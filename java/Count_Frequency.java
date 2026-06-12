@@ -1,6 +1,12 @@
 class Solution {
     int countFreq(int[] arr, int target) {
-        // TODO: Implement frequency counting
-        return 0;
+        // code here
+        int count =0;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==target){
+                count++;
+            }
+        }
+        return count;
     }
 }
