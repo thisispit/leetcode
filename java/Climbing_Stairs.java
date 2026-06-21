@@ -7,12 +7,16 @@
 //
 // Example 1: n = 2  -> Output: 2  (1+1, 2)
 // Example 2: n = 3  -> Output: 3  (1+1+1, 1+2, 2+1)
-//
-// Approach: Dynamic Programming (Fibonacci pattern)
-// Time Complexity:  O(n)
-// Space Complexity: O(1)
+
+import java.util.HashMap;
 
 class Climbing_Stairs {
+
+    // -------------------------------------------------------
+    // Approach 1: Bottom-Up DP (Fibonacci pattern)
+    // Time Complexity:  O(n)
+    // Space Complexity: O(1)
+    // -------------------------------------------------------
     public int climbStairs(int n) {
         if (n <= 2) return n;
 
@@ -28,12 +32,36 @@ class Climbing_Stairs {
         return prev1;
     }
 
+    // -------------------------------------------------------
+    // Approach 2: Top-Down DP with Memoization (Recursion)
+    // Time Complexity:  O(n)
+    // Space Complexity: O(n)  — memo map + call stack
+    // -------------------------------------------------------
+    private HashMap<Integer, Integer> memo = new HashMap<>();
+
+    public int climbStairsMemo(int n) {
+        if (n <= 2) return n;
+        if (memo.containsKey(n)) return memo.get(n);
+
+        int result = climbStairsMemo(n - 1) + climbStairsMemo(n - 2);
+        memo.put(n, result);
+        return result;
+    }
+
     // ---------- quick test ----------
     public static void main(String[] args) {
         Climbing_Stairs sol = new Climbing_Stairs();
+
+        System.out.println("--- Bottom-Up DP ---");
         System.out.println(sol.climbStairs(2));  // 2
         System.out.println(sol.climbStairs(3));  // 3
         System.out.println(sol.climbStairs(5));  // 8
         System.out.println(sol.climbStairs(10)); // 89
+
+        System.out.println("--- Top-Down Memoization ---");
+        System.out.println(sol.climbStairsMemo(2));  // 2
+        System.out.println(sol.climbStairsMemo(3));  // 3
+        System.out.println(sol.climbStairsMemo(5));  // 8
+        System.out.println(sol.climbStairsMemo(10)); // 89
     }
 }
