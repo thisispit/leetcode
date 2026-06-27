@@ -77,3 +77,5 @@ LeetCode Profile: [Click here](https://leetcode.com/u/thisispit/)
 | Date | Notes |
 |------|-------|
 | 2026-06-16 | 🔥 Streak maintained — consistent daily practice |
+| 2026-06-27 | ✅ Solved Single Number (LC #136) — XOR bit manipulation |
+| 2026-06-27 | ✅ Solved Move Zeroes (LC #283) — Two pointer in-place |
