@@ -1,4 +1,4 @@
-# 🚀 LeetCode  - Pitamber Singh
+# 🚀 LeetCode Journey - Pitamber Singh
 
 ![leetcode](https://github.com/user-attachments/assets/27ddf194-43f5-49dd-a4b6-d50504d3dfe8)
 
