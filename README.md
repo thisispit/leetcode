@@ -82,3 +82,4 @@ LeetCode Profile: [Click here](https://leetcode.com/u/thisispit/)
 | 2026-06-27 | ✅ Solved Move Zeroes (LC #283) — Two pointer in-place |
 | 2026-06-28 | ✅ Solved Majority Element (LC #169) — Boyer-Moore Voting Algorithm |
 | 2026-06-28 | ✅ Solved Best Time to Buy and Sell Stock II (LC #122) — Greedy |
+| 2026-08-07 | ✅ Solved Product of Array Except Self (LC #238) — Prefix & Suffix Products |
