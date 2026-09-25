@@ -85,3 +85,4 @@ LeetCode Profile: [Click here](https://leetcode.com/u/thisispit/)
 | 2026-08-07 | ✅ Solved Product of Array Except Self (LC #238) — Prefix & Suffix Products |
 | 2026-08-11 | 🔥 Streak maintained — consistent daily practice |
 | 2026-09-19 | ✅ Solved Reverse Linked List (LC #206) — Iterative & Recursive |
+| 2026-09-25 | ✅ Solved LRU Cache (LC #146) — HashMap + Doubly Linked List, O(1) |
