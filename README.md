@@ -72,17 +72,3 @@ LeetCode Profile: [Click here](https://leetcode.com/u/thisispit/)
 ---
 
 ⭐ If you find this repository helpful, feel free to star it!
-
-## 📅 Daily Progress Log
-
-| Date | Notes |
-|------|-------|
-| 2026-06-16 | 🔥 Streak maintained — consistent daily practice |
-| 2026-06-27 | ✅ Solved Single Number (LC #136) — XOR bit manipulation |
-| 2026-06-27 | ✅ Solved Move Zeroes (LC #283) — Two pointer in-place |
-| 2026-06-28 | ✅ Solved Majority Element (LC #169) — Boyer-Moore Voting Algorithm |
-| 2026-06-28 | ✅ Solved Best Time to Buy and Sell Stock II (LC #122) — Greedy |
-| 2026-08-07 | ✅ Solved Product of Array Except Self (LC #238) — Prefix & Suffix Products |
-| 2026-08-11 | 🔥 Streak maintained — consistent daily practice |
-| 2026-09-19 | ✅ Solved Reverse Linked List (LC #206) — Iterative & Recursive |
-| 2026-09-25 | ✅ Solved LRU Cache (LC #146) — HashMap + Doubly Linked List, O(1) |
