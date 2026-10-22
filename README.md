@@ -18,8 +18,6 @@ Through consistent practice, I've learned to:
 * Identify patterns across different types of challenges
 * Choose the right data structures and algorithms for the task
 * Improve time and space complexity awareness
-* Write cleaner and more readable code
-  
 
 ## 📂 Repository Structure
 
