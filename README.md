@@ -53,7 +53,6 @@ I focus primarily on **C++** to reinforce my understanding of:
 * STL
 * Memory management
 * Performance optimization
-* Competitive programming patterns
 
 ## 🎯 Goals
 
