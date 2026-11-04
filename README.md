@@ -17,7 +17,6 @@ Through consistent practice, I've learned to:
 * Break down complex problems into manageable sub-problems
 * Identify patterns across different types of challenges
 * Choose the right data structures and algorithms for the task
-* Improve time and space complexity awareness
 
 ## 📂 Repository Structure
 
