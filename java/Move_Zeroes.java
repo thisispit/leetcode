@@ -1,25 +1,23 @@
 // LeetCode 283 - Move Zeroes
 // Difficulty: Easy
-// Approach: Two Pointer (in-place)
+// Approach: Two Pointer (swap-based, in-place)
 // Time Complexity: O(n) | Space Complexity: O(1)
 //
 // Key Insight: Use a slow pointer to track the position of the next non-zero element.
-// Swap non-zero elements to the front while preserving relative order.
+// Every time a non-zero element is found, swap it with the slow pointer position.
 
 class Move_Zeroes {
     public void moveZeroes(int[] nums) {
-        int insertPos = 0;
+        int i = 0;
 
-        // Move all non-zero elements to the front
-        for (int num : nums) {
-            if (num != 0) {
-                nums[insertPos++] = num;
+        // Swap each non-zero element into position i
+        for (int j = 0; j < nums.length; j++) {
+            if (nums[j] != 0) {
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
+                i++;
             }
-        }
-
-        // Fill the rest with zeroes
-        while (insertPos < nums.length) {
-            nums[insertPos++] = 0;
         }
     }
 
