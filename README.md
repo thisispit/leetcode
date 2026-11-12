@@ -58,7 +58,6 @@ I focus primarily on **C++** to reinforce my understanding of:
 * Master **Data Structures & Algorithms**
 * Improve **problem-solving speed**
 * Prepare for **coding interviews**
-* Track progress publicly
 
 ## 🔗 Links
 
